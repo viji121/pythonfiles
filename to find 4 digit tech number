@@ -1,0 +1,10 @@
+for i in range(1000,10000):
+    n=str(i)
+    a=n[:len(n)//2:]
+    b=n[:len(n)//2:]
+    a1=int(a)
+    b1=int(b)
+    if (a1+b1)**2 == i:
+        print(i)
+    else:
+        continue
