@@ -1,0 +1,17 @@
+#5.
+FL=float(input("Enter the number"))
+DOL=float(input("Enter the number"))
+regularprice=185.00
+if FL<=0:
+    print("0")
+elif FL>=1:
+    noofFL=(regularprice*FL)
+if DOL<=0:
+    print("0")
+elif DOL>=1:
+    noofDOL=(0.6*regularprice*DOL)
+Total=noofFL+noofDOL
+print("regular price",(regularprice))
+print("no of FLloaves",(noofFL))
+print("no of dayoldloaves",(noofDOL))
+print("TOTAL AMOUNT",(Total))
