@@ -1,0 +1,14 @@
+#1.simpleinterest
+def simpleinterest(p,t,a):
+    if a == "y":
+        si=(p*12*t)/100
+        print("the simple interest of the senior citizen",si)
+        return si
+    elif a == "n":
+        si=(p*10*t)/100
+        print("the simple interest of the non senior citizen",si)
+        return si
+p=int(input("Enter the principal amount"))
+t=int(input("Enter the no of years"))
+a=input("Is customer senior citizen or not")
+simpleinterest(p,t,a)    
