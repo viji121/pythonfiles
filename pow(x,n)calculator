@@ -1,0 +1,31 @@
+#create function of
+def pow1(x,n):
+    print(x**n)
+def add(x,n):
+    print(x+n)
+def sub(x,n):
+    print(x-n)
+def mul(x,n):
+    print(x*n)
+def div(x,n):
+    print(x//n)
+x=int(input("x="))
+n=int(input("y="))
+choice=int(input("Enter 1-pow,2-add,3-sub,4-mul,5-div"))
+if choice==1:
+    pow1(x,n)
+elif choice==2:
+    add(x,n)
+elif choice==3:
+    sub(x,n)
+elif choice==4:
+    mul(x,n)
+elif choice==5:
+    div(x,n)
+           
+
+
+
+
+                    
+                    
