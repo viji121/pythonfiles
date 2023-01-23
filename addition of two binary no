@@ -1,0 +1,6 @@
+#perform addition of two binary number:
+n1=int(input("enter the number"))
+n2=int(input("enter the number"))
+c=n1+n2
+s=bin(c)
+print(s[2:])
