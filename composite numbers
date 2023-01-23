@@ -1,0 +1,12 @@
+#print all the composite number b/w a and b:
+A=int(input("enter the 1st number"))
+B=int(input("enter the 2nd number"))
+print("All the composite number b/w",A,"and",B)
+for i in range(A,B+1):
+    num=i
+    count=0
+    for j in range(1,num+1):
+        if num%j==0:
+            count+=1
+    if count>2:
+        print(num,end=" ")
