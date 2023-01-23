@@ -1,0 +1,10 @@
+#mean median mode
+import statistics
+n=int(input("Enter the number of elements"))
+l1=[]
+for i in range(n):
+    n1=int(input("Enter the elements"))
+    l1.append(n)
+print("Mean",statistics.mean(l1))
+print("Median",statistics.median(l1))
+print("Mode",statistics.mode(l1))
