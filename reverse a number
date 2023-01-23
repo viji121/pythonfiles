@@ -1,0 +1,4 @@
+#reverse a number:
+s1=int(input("Enter a number"))
+s=str(s1)
+print(s[::-1])
