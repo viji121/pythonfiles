@@ -1,0 +1,13 @@
+#write a python program to find the LCM and GCD of n number:
+n=int(input("Enter the number of values"))
+n1=int(input("enter n1"))
+n2=int(input("enter n2"))
+while n1%n2 != 0:
+    r = n1 % n2
+    n1 = n2
+    n2 = r
+gcd = n2
+print("GCD", gcd)
+
+lcm = (n1 * n2)/gcd
+print("LCM", lcm)
