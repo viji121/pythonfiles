@@ -1,0 +1,7 @@
+#eligible for vote or not:
+age=int(input("Enter the age"))
+if age <= 18:
+    diff=18-age
+    print("You are allowed to vote after",diff,"years")
+else:
+    print("You are allowed to vote")
