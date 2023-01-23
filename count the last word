@@ -1,0 +1,5 @@
+#print the count of lastword of the string
+n=input("Enter the string")
+lst=n.split()
+i=len(lst)-1
+print(len(lst[i]))
